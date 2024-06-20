@@ -47,7 +47,7 @@ fun TodoListScreen(viewModel: TodoListViewModel = viewModel()) {
             ),
             value = text.value,
             onValueChange = { viewModel.onTextChanged(it)},
-            label = { Text("Adicionar Tarefa",color = Color.White) },
+            label = { Text("Adicionar nova Tarefa",color = Color.White) },
             modifier = Modifier.fillMaxWidth()
         )
 
